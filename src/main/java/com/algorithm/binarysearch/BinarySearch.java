@@ -2,7 +2,7 @@ package com.algorithm.binarysearch;
 
 /**
  * Description(类功能描述):
- *
+ *    二分查找（有序数组）
  * @author Zetian Wang
  * @date 2020/09/07
  **/
