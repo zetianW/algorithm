@@ -39,4 +39,16 @@ public class BinaryTree {
     public void afterShow(){
         root.afterShow();
     }
+
+    /**
+     * 删除子树
+     * @param i
+     */
+    public void delete(int i) {
+        if(root.value == i){
+            root = null;
+        }else {
+            root.delete(i);
+        }
+    }
 }

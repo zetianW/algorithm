@@ -34,10 +34,17 @@ public class TestBinaryTree {
         rootR.setLeftNode(new TreeNode(6));
         rootR.setRightNode(new TreeNode(7));
         //前序遍历树
-       //binaryTree.frontShow();
+       binaryTree.frontShow();
+        System.out.println("-------------------");
         //中序遍历树
-        //binaryTree.midShow();
+        binaryTree.midShow();
+        System.out.println("-------------------");
         //后序遍历
         binaryTree.afterShow();
+        System.out.println("-------------------");
+        //删除前序遍历的节点
+        binaryTree.delete(5);
+        binaryTree.frontShow();
+
     }
 }
