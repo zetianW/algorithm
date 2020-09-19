@@ -20,6 +20,14 @@ public class TreeNode {
      */
     TreeNode rightNode;
 
+    /**
+     * 标识指针类型
+     * @param value
+     */
+    int leftType;
+    int rightType;
+
+
     public TreeNode(int value) {
         this.value = value;
     }
