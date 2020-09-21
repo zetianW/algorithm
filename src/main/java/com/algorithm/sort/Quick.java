@@ -1,7 +1,5 @@
 package com.algorithm.sort;
 
-import java.util.Arrays;
-
 /**
  * Description(类功能描述):
  *  快速排序（找一个作为基准的数字，只要比这个基准小的数字就往左边移动，比这个基准大的数字就往右边移动）
