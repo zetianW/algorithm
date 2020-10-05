@@ -8,8 +8,6 @@ package com.algorithm.recursion;
  * @date 2020/09/10
  **/
 public class Recursion {
-    public void recursion(){
-    }
     public static int recursion(int i) {
         if (i == 1 || i == 2) {
             return 1;

@@ -22,5 +22,4 @@ public class LinerSearch {
         }
         System.out.println("index:"+index);
     }
-
 }

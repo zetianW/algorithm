@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * Description(类功能描述):
- *
+ * 二分查找测试类
  * @author Zetian Wang
  * @date 2020/09/08
  **/

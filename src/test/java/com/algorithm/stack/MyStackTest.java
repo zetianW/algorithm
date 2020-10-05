@@ -14,7 +14,7 @@ public class MyStackTest {
     public void testMyStack() {
         //创建一个新的栈空间
         MyStack<Integer> ms = new MyStack<Integer>();
-        //通过调用mystack的push方法注入元素
+        //通过调用myStack的push方法注入元素
         ms.push(4);
         ms.push(3);
         ms.push(2);

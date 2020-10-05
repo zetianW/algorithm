@@ -3,7 +3,7 @@ package com.algorithm.recursion;
 /**
  * Description(类功能描述):
  *  汉诺塔问题
- *  （有三个柱子，从下到上依次嵌套着从大到小的圆盘，有三个柱子，
+ *  （有三个柱子，从下到上依次嵌套着从大到小的圆盘，
  *  需要将这些个圆盘还是按照次序从第一个柱子移到第三个柱子上）
  * @author Zetian Wang
  * @date 2020/09/11
@@ -18,7 +18,7 @@ public class Hanoi {
      */
     public static void hanoi(int i,char from,char in,char to){
         if(i==1){
-            System.out.println("第一个椭圆从"+from+"移到"+to);
+            System.out.println("第1个椭圆从"+from+"移到"+to);
         }else {
             //移动
             hanoi(i-1,from,to,in);

@@ -1,7 +1,7 @@
 package com.algorithm.sort;
 
 /**
- * Description(类功能描述):
+ * Description(类功能描述):j'h'k'k
  *  冒泡排序（给无序数组进行排序，拿前一个元素和后一个元素进行比较，当大于后一个元素时向后移动。
  *  直至按照从小到大的顺序排列，将无序数组变为有序数组）
  *    一共需要比较   数组长度-1次  （arr.length-1）

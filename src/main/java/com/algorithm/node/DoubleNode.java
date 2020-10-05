@@ -55,6 +55,11 @@ public class DoubleNode {
     public DoubleNode pre(){
         return this.pre;
     }
+
+    /**
+     * 获取自己
+     * @return
+     */
     public int getData(){
         return this.data;
     }

@@ -12,8 +12,6 @@ public class HanoiTest {
 
     @Test
     public void hanoi() {
-        Hanoi.hanoi(1,'a','b','c');
+        Hanoi.hanoi(3,'a','b','c');
     }
-
-
 }

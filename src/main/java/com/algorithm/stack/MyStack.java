@@ -69,5 +69,11 @@ public class MyStack<E> {
     public int size(){
         return elements.length;
     }
+    /**
+     *   判断队列是否为空
+     */
+    public boolean isEmpty(){
+        return elements.length==0;
+    }
 
 }

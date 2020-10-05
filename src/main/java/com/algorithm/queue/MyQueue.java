@@ -2,7 +2,7 @@ package com.algorithm.queue;
 
 /**
  * Description(类功能描述):
- *
+ *   队列
  * @author Zetian Wang
  * @date 2020/09/09
  **/
